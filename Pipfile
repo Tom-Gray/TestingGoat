@@ -1,0 +1,13 @@
+[[source]]
+name = "pypi"
+url = "https://artifactory.service.anz:8443/artifactory/api/pypi/pypi-remote/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "<=1.12"
+selenium = "<=4"
+
+[requires]
+python_version = "3.7"
